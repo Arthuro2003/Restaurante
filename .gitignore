@@ -1,0 +1,39 @@
+# --- Python y Sistema ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# --- Entornos Virtuales (¡Muy Importante!) ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Base de Datos ---
+# Como usas Postgres, esto no afecta, pero es buena práctica dejarlo
+db.sqlite3
+
+# --- Django ---
+*.log
+local_settings.py
+staticfiles/
+
+# --- Archivos Multimedia (Fotos de evidencia) ---
+# Generalmente no se suben las fotos de prueba al código,
+# pero si quieres compartir las fotos con tus amigos,
+# PUEDES BORRAR ESTAS DOS LÍNEAS DE ABAJO:
+media/
+evidencias/
+
+# --- IDEs (Configuraciones de tu editor) ---
+# Como usas PyCharm, esto es vital para no subir tu config personal
+.idea/
+.vscode/
+
+# --- Archivos de Backup SQL (Opcional) ---
+# Si quieres que el backup SÍ se suba, pon un # al inicio de la línea de abajo.
+# Si prefieres que NO se suba (por seguridad), déjalo así:
+*.sql
