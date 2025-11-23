@@ -36,4 +36,4 @@ evidencias/
 # --- Archivos de Backup SQL (Opcional) ---
 # Si quieres que el backup SÍ se suba, pon un # al inicio de la línea de abajo.
 # Si prefieres que NO se suba (por seguridad), déjalo así:
-*.sql
+#*.sql
